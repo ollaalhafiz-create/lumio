@@ -13,25 +13,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appName => 'Lumio';
 
   @override
-  String get onboardingTitle1 => 'Learn your way';
+  String get onboardingTitle1 => 'Learn';
 
   @override
-  String get onboardingBody1 =>
-      'Interactive questions designed to help you master any subject with confidence.';
+  String get onboardingBody1 => 'Discover and organize your lessons.';
 
   @override
-  String get onboardingTitle2 => 'Daily challenges';
+  String get onboardingTitle2 => 'AI Study';
 
   @override
   String get onboardingBody2 =>
-      'Keep your streak alive with short challenges that take only minutes.';
+      'Summarize lessons and generate quizzes using AI.';
 
   @override
-  String get onboardingTitle3 => 'Track your progress';
+  String get onboardingTitle3 => 'Grow';
 
   @override
   String get onboardingBody3 =>
-      'See your points, accuracy and study time in one place.';
+      'Track your progress and improve your learning.';
 
   @override
   String get navHome => 'Home';

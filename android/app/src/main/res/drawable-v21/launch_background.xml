@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Modify this file to customize your launch splash screen -->
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="?android:colorBackground" />
+<!--
+  Lumio native splash.
 
-    <!-- You can insert your own image assets here -->
-    <!-- <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@mipmap/launch_image" />
-    </item> -->
+  A flat brand-tinted backdrop with the mark centred, so the handoff to the
+  first Flutter frame shows no colour jump. Vector art means it stays crisp on
+  every density without shipping per-density bitmaps.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/lumio_splash_background" />
+    <item
+        android:drawable="@drawable/ic_lumio_mark"
+        android:gravity="center"
+        android:width="128dp"
+        android:height="128dp" />
 </layer-list>

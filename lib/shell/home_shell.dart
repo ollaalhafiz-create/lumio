@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../core/brand/lumio_logo.dart';
 import '../l10n/gen/app_localizations.dart';
 
 import '../core/localization/l10n_extension.dart';
@@ -55,6 +56,9 @@ class _HomeShellState extends State<HomeShell> {
     ];
 
     return Scaffold(
+      appBar: AppBar(
+        title: const LumioLogo(markSize: 30, fontSize: 23),
+      ),
       body: IndexedStack(index: _index, children: screens),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,

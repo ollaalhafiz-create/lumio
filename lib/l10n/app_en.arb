@@ -3,12 +3,12 @@
 
   "appName": "Lumio",
 
-  "onboardingTitle1": "Learn your way",
-  "onboardingBody1": "Interactive questions designed to help you master any subject with confidence.",
-  "onboardingTitle2": "Daily challenges",
-  "onboardingBody2": "Keep your streak alive with short challenges that take only minutes.",
-  "onboardingTitle3": "Track your progress",
-  "onboardingBody3": "See your points, accuracy and study time in one place.",
+  "onboardingTitle1": "Learn",
+  "onboardingBody1": "Discover and organize your lessons.",
+  "onboardingTitle2": "AI Study",
+  "onboardingBody2": "Summarize lessons and generate quizzes using AI.",
+  "onboardingTitle3": "Grow",
+  "onboardingBody3": "Track your progress and improve your learning.",
 
   "navHome": "Home",
   "navQuizzes": "Quizzes",

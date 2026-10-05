@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive icon backdrop: a very light neutral with a hint of green, so
+         the mark reads cleanly on both light and dark home screens. -->
+    <color name="lumio_icon_background">#F1F9F4</color>
+
+    <!-- Splash backdrop, matched to the Flutter scaffold background so the
+         handoff from the native splash to the first Flutter frame is invisible. -->
+    <color name="lumio_splash_background">#F6FBF8</color>
+</resources>

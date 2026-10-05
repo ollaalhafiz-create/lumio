@@ -4,12 +4,12 @@
   "appName": "Lumio",
   "@appName": { "description": "اسم التطبيق كما يظهر للمستخدم" },
 
-  "onboardingTitle1": "تعلّم بطريقتك",
-  "onboardingBody1": "أسئلة تفاعلية مصممة خصيصًا لمساعدتك على تعلّم أي موضوع بثقة.",
-  "onboardingTitle2": "تحديات يومية",
-  "onboardingBody2": "حافظ على سلسلتك اليومية بتحديات قصيرة تستغرق دقائق فقط.",
-  "onboardingTitle3": "تابع تقدّمك",
-  "onboardingBody3": "شاهد نقاطك ودقّتك ووقت مذاكرتك في مكان واحد.",
+  "onboardingTitle1": "تعلَّم",
+  "onboardingBody1": "اكتشف دروسك ونظِّمها.",
+  "onboardingTitle2": "الدراسة بالذكاء الاصطناعي",
+  "onboardingBody2": "لخِّص دروسك وأنشئ اختبارات بالذكاء الاصطناعي.",
+  "onboardingTitle3": "تطوَّر",
+  "onboardingBody3": "تابع تقدُّمك وحسِّن تعلُّمك.",
 
   "navHome": "الرئيسية",
   "navQuizzes": "الاختبارات",

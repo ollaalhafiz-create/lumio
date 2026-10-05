@@ -4,22 +4,46 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'core/localization/l10n_extension.dart';
 import 'core/localization/locale_provider.dart';
 import 'core/theme/app_theme.dart';
+import 'features/onboarding/lumio_intro_flow.dart';
+import 'features/onboarding/onboarding_screen.dart';
 import 'l10n/gen/app_localizations.dart';
 import 'shell/home_shell.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  // Resolved before the first frame so the intro flow never has to wait: the
+  // native splash is already on screen while this runs.
+  final bool seenOnboarding = await OnboardingScreen.hasSeen();
+
   final LocaleProvider localeProvider = LocaleProvider();
   await localeProvider.load();
 
-  runApp(LumioApp(localeProvider: localeProvider));
+  runApp(
+    LumioApp(
+      localeProvider: localeProvider,
+      showIntro: true,
+      showOnboarding: !seenOnboarding,
+    ),
+  );
 }
 
 class LumioApp extends StatelessWidget {
-  const LumioApp({super.key, required this.localeProvider});
+  const LumioApp({
+    super.key,
+    required this.localeProvider,
+    this.showIntro = false,
+    this.showOnboarding = false,
+  });
 
   final LocaleProvider localeProvider;
+
+  /// Whether to play the branded splash and, on a first run, onboarding.
+  /// Defaults to `false` so the app can be mounted directly on a screen.
+  final bool showIntro;
+
+  /// Whether onboarding should be included in [showIntro].
+  final bool showOnboarding;
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +87,9 @@ class LumioApp extends StatelessWidget {
             }
             return LocaleProvider.fallbackLocale;
           },
-          home: const HomeShell(),
+          home: showIntro
+              ? LumioIntroFlow(showOnboarding: showOnboarding)
+              : const HomeShell(),
         );
       },
     );

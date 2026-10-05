@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The Lumio Spark: the brand mark.
+
+  Eight round-capped rays radiating from one point, alternating between a long
+  brand-green ray on the diagonals and a short cyan ray on the axes. Purely
+  geometric so it stays legible down to launcher sizes, and it carries meaning
+  on its own: light, discovery and growth.
+
+  Drawn inside the 108dp adaptive-icon viewport with the mark spanning ~62dp,
+  which keeps it within the 66dp safe zone on every launcher mask shape.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Long rays: brand green #00893F, on the diagonals. -->
+    <path
+        android:pathData="M54,54 L72,54"
+        android:strokeColor="#00893F"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L54,72"
+        android:strokeColor="#00893F"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L36,54"
+        android:strokeColor="#00893F"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L54,36"
+        android:strokeColor="#00893F"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+
+    <!-- Short rays: cyan accent #19B5D2, on the axes. -->
+    <path
+        android:pathData="M54,54 L69.7,54"
+        android:strokeColor="#19B5D2"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L54,69.7"
+        android:strokeColor="#19B5D2"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L38.3,54"
+        android:strokeColor="#19B5D2"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L54,38.3"
+        android:strokeColor="#19B5D2"
+        android:strokeWidth="11.3"
+        android:strokeLineCap="round" />
+</vector>

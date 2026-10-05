@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark-mode counterparts of the brand colours. -->
+    <color name="lumio_icon_background">#12211A</color>
+    <color name="lumio_splash_background">#0C1511</color>
+</resources>

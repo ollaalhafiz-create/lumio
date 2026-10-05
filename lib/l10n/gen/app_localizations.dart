@@ -107,37 +107,37 @@ abstract class AppLocalizations {
   /// No description provided for @onboardingTitle1.
   ///
   /// In en, this message translates to:
-  /// **'Learn your way'**
+  /// **'Learn'**
   String get onboardingTitle1;
 
   /// No description provided for @onboardingBody1.
   ///
   /// In en, this message translates to:
-  /// **'Interactive questions designed to help you master any subject with confidence.'**
+  /// **'Discover and organize your lessons.'**
   String get onboardingBody1;
 
   /// No description provided for @onboardingTitle2.
   ///
   /// In en, this message translates to:
-  /// **'Daily challenges'**
+  /// **'AI Study'**
   String get onboardingTitle2;
 
   /// No description provided for @onboardingBody2.
   ///
   /// In en, this message translates to:
-  /// **'Keep your streak alive with short challenges that take only minutes.'**
+  /// **'Summarize lessons and generate quizzes using AI.'**
   String get onboardingBody2;
 
   /// No description provided for @onboardingTitle3.
   ///
   /// In en, this message translates to:
-  /// **'Track your progress'**
+  /// **'Grow'**
   String get onboardingTitle3;
 
   /// No description provided for @onboardingBody3.
   ///
   /// In en, this message translates to:
-  /// **'See your points, accuracy and study time in one place.'**
+  /// **'Track your progress and improve your learning.'**
   String get onboardingBody3;
 
   /// No description provided for @navHome.

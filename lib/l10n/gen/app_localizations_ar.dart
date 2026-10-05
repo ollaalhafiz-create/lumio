@@ -13,24 +13,22 @@ class AppLocalizationsAr extends AppLocalizations {
   String get appName => 'Lumio';
 
   @override
-  String get onboardingTitle1 => 'تعلّم بطريقتك';
+  String get onboardingTitle1 => 'تعلَّم';
 
   @override
-  String get onboardingBody1 =>
-      'أسئلة تفاعلية مصممة خصيصًا لمساعدتك على تعلّم أي موضوع بثقة.';
+  String get onboardingBody1 => 'اكتشف دروسك ونظِّمها.';
 
   @override
-  String get onboardingTitle2 => 'تحديات يومية';
+  String get onboardingTitle2 => 'الدراسة بالذكاء الاصطناعي';
 
   @override
-  String get onboardingBody2 =>
-      'حافظ على سلسلتك اليومية بتحديات قصيرة تستغرق دقائق فقط.';
+  String get onboardingBody2 => 'لخِّص دروسك وأنشئ اختبارات بالذكاء الاصطناعي.';
 
   @override
-  String get onboardingTitle3 => 'تابع تقدّمك';
+  String get onboardingTitle3 => 'تطوَّر';
 
   @override
-  String get onboardingBody3 => 'شاهد نقاطك ودقّتك ووقت مذاكرتك في مكان واحد.';
+  String get onboardingBody3 => 'تابع تقدُّمك وحسِّن تعلُّمك.';
 
   @override
   String get navHome => 'الرئيسية';

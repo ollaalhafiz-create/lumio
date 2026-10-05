@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ (API 31) system splash. The system draws its own mask, so
+         the mark is supplied as the animated icon on a brand backdrop and the
+         window background then hands off to the Flutter splash. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@color/lumio_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_lumio_mark</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/lumio_icon_background</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/lumio_splash_background</item>
+    </style>
+</resources>

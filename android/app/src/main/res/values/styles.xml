@@ -2,8 +2,8 @@
 <resources>
     <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <!-- Show a splash screen on the activity. Automatically removed when
-             the Flutter engine draws its first frame -->
+        <!-- The Lumio splash: mark centred on a flat brand backdrop. Removed
+             automatically once the Flutter engine draws its first frame. -->
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
     <!-- Theme applied to the Android Window as soon as the process has started.
@@ -13,6 +13,8 @@
 
          This Theme is only used starting with V2 of Flutter's Android embedding. -->
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">?android:colorBackground</item>
+        <!-- Matches the Flutter scaffold background so the native window and
+             the first Flutter frame are the same colour. -->
+        <item name="android:windowBackground">@color/lumio_splash_background</item>
     </style>
 </resources>
